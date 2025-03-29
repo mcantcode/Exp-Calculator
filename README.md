@@ -43,3 +43,7 @@ After compiling, run the program with:
 ```
 
 Once the program is running, enter a rebirth amount, and the results will be displayed.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.

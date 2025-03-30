@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 		if (rebirthAmount < 1)
 			std::cout << "Error: Rebirth amount must be at least 1.";
 			return 1;
-	} catch (const exception&)
+	} catch (const std::exception&)
 		std::cout << "Error: Invalid number format. Please enter a valid integer.";
 		return 1;
 

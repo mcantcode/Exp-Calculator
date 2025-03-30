@@ -1,6 +1,6 @@
 # Exp Calculator
 
-A script that calculates a rebirth amount to determine the earned Exp from punching rock in [Muscle Legends](https://www.roblox.com/games/3623096087/Muscle-Legends), a [Roblox](https://www.roblox.com/) game, and displays the result.
+A script that calculates a rebirth amount to determine the earned Exp from punching rock in [Muscle Legends](https://www.roblox.com/games/3623096087/Muscle-Legends), a [Roblox](https://www.roblox.com) game, and displays the result.
 
 ## Showcase
 
@@ -20,7 +20,7 @@ Exp = (rebirth-amount + 20) × rock's value
 
 ## Installation
 
-Before installing Exp Calculator, ensure Clang is installed. If not, install it first.
+Before installing Exp Calculator, ensure [Clang](https://clang.llvm.org) is installed. If not, install it first.
 
 After installing Clang, open the command line and run the following command to clone the Exp Calculator GitHub repository:
 

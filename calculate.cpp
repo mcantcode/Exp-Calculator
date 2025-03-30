@@ -11,13 +11,13 @@ int main(int argc, char* argv[]) {
 		std::cout << "Error: Missing arguments. Use '-r <number>' or '--rebirths <number>'.";
 		return 1;
 
-	if (string(argv[1]) != "-r" && string(argv[1]) != "--rebirths")
+	if (std::string(argv[1]) != "-r" && std::string(argv[1]) != "--rebirths")
 		std::cout << "Error: Invalid option. Use '-r' or '--rebirths'.";
 		return 1;
 
 	int rebirthAmount;
 	try {
-		rebirthAmount = stoi(argv[2]);
+		rebirthAmount = std::stoi(argv[2]);
 		if (rebirthAmount < 1)
 			std::cout << "Error: Rebirth amount must be at least 1.";
 			return 1;

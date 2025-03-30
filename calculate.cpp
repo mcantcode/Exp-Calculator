@@ -12,7 +12,7 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
-	if (std::string(argv[1]) != "-r" && std::string(argv[1]) != "--rebirths") {
+	if (std::string(argv[1]) != "-r" || std::string(argv[1]) != "--rebirths") {
 		std::cout << "Error: Invalid option. Use '-r' or '--rebirths'.";
 		return 1;
 	}

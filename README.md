@@ -4,7 +4,7 @@ A script that calculates a rebirth amount to determine the earned Exp from punch
 
 ## Showcase
 
-![](https://i.ibb.co.com/LVVkphC/Exp-Calculator-Showcase.jpg)
+![](https://i.ibb.co.com/TqWnQn11/Exp-Calculator-Showcase.jpg)
 
 ## Features
 

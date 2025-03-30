@@ -20,7 +20,7 @@ Exp = (rebirth-amount + 20) × rock's value
 
 ## Installation
 
-Before installing Exp Calculator, ensure [Clang](https://clang.llvm.org) is installed. If not, install it first.
+Before installing the Exp Calculator, ensure [Clang](https://clang.llvm.org) is installed. If not, install it first.
 
 After installing Clang, open the command line and run the following command to clone the Exp Calculator GitHub repository:
 
@@ -36,7 +36,7 @@ Before running the Exp Calculator, make sure you're in the correct directory. If
 cd Exp-Calculator
 ```
 
-Once you're in the correct directory, compile Exp Calculator using Clang:
+Once you're in the correct directory, compile the Exp Calculator using Clang:
 
 ```sh
 clang++ calculate.cpp -o calculate

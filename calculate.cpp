@@ -6,7 +6,7 @@ struct rock {
 	double value;
 };
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
 	if (argc != 3) {
 		std::cerr << "Error: Missing arguments. Use '-r <number>' or '--rebirths <number>'.";
 		return 1;

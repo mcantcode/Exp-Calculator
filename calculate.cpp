@@ -8,12 +8,12 @@ struct rock {
 
 int main(int argc, char* argv[]) {
 	if (argc != 3) {
-		std::cout << "Error: Missing arguments. Use '-r <number>' or '--rebirths <number>'.";
+		std::cerr << "Error: Missing arguments. Use '-r <number>' or '--rebirths <number>'.";
 		return 1;
 	}
 
 	if (std::string(argv[1]) != "-r" && std::string(argv[1]) != "--rebirths") {
-		std::cout << "Error: Invalid option. Use '-r' or '--rebirths'.";
+		std::cerr << "Error: Invalid option. Use '-r' or '--rebirths'.";
 		return 1;
 	}
 
@@ -21,11 +21,11 @@ int main(int argc, char* argv[]) {
 	try {
 		rebirthAmount = std::stoi(argv[2]);
 		if (rebirthAmount < 1) {
-			std::cout << "Error: Rebirth amount must be at least 1.";
+			std::cerr << "Error: Rebirth amount must be at least 1.";
 			return 1;
 		}
 	} catch (const std::exception&) {
-		std::cout << "Error: Invalid number format. Please enter a valid integer.";
+		std::cerr << "Error: Invalid number format. Please enter a valid integer.";
 		return 1;
 	}
 

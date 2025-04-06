@@ -8,7 +8,7 @@ struct rock {
 
 int main(int argc, char *argv[]) {
 	if (argc != 3) {
-		std::cerr << "Error: Missing arguments. Use '-r <number>' or '--rebirths <number>'.";
+		std::cerr << "Error: Expected 2 arguments. But recieved " << argc - 1 << ".\n";
 		return 1;
 	}
 

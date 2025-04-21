@@ -13,7 +13,7 @@ A script that calculates a rebirth amount to determine the earned Exp from punch
 * Uses an accurate formula to calculate Exp:
 
 ```
-Exp = (rebirth-amount + 20) × rock's value
+Exp = (rebirth-amount + 20) × rock value
 ```
 
 * Calculates a rebirth amount based on the latest rocks, such as the Ancient Jungle rock, Muscle King rock, etc.

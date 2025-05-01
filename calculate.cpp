@@ -8,7 +8,7 @@ struct rock {
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        std::cerr << "[ERROR] Expected 2 arguments, but received " << argc - 1 << ".\nUsage: ./calculate [OPTION] <number>\n";
+        std::cerr << "[ERROR] Expected 2 arguments, but received " << argc - 1 << ".\nUsage: './calculate [OPTION] <number>'\n";
         return 1;
     }
 
